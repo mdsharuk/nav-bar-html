@@ -1,0 +1,151 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-size: 16px;
+
+}
+
+#section {
+    padding-bottom: 20px;
+}
+
+.container {
+    margin: auto;
+    max-width: 1261px;
+}
+
+.div_hero {
+    background-color: cornflowerblue;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Manrope', sans-serif;
+}
+
+p,
+p1,
+p2,
+p3,
+p4,
+p5,
+p6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* hero_section */
+.div_container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    background-color: cadetblue;
+    transform: none;
+
+}
+
+
+.div_container::after::before {
+    background-color: aqua;
+
+}
+
+.nav_bar {
+    margin-left: auto;
+}
+
+.nav_bar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.nav_bar ul li a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.nav_bar button {
+    border-radius: 50px;
+    height: 41px;
+    width: 84px;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.nav_bar button a {
+    text-decoration: none;
+    color: #000;
+    ;
+}
+
+.nav_bar ul li a:hover {
+    color: #000;
+
+
+}
+
+.btn_log:hover {
+    background-color: black;
+    color: #FFFFFF;
+
+}
+
+.btn_log a:hover {
+    color: #FFFFFF;
+}
+
+.logo {
+
+    border-radius: 50px;
+    width: 33%;
+}
+
+.logo a:hover {
+    background-color: burlywood;
+
+}
+
+.menu_btn {
+    color: #000;
+}
+
+.hero_heading {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.hero_heading h1 {
+    color: brown;
+    padding-top: 10px;
+    font-size: 47px;
+}
+
+.hero_heading p {
+    font-size: 30px;
+}
+
+.heading_underline {
+    text-decoration: underline;
+    border: solid 2px;
+
+
+}
+/* index1 */
+.img {
+    width: 100%;
+}
